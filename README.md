@@ -16,7 +16,7 @@ follow detected vehicles.
 
 ### Image-1
 
-<Table border=1>
-<TH><TD></TD><TD></TD></TH>
+<Table>
+<TH><TD>Car Image</TD><TD>Non-Cat Image</TD></TH>
 <TR><TD></TD><TD></TD></TR>
 </Table>
