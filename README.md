@@ -11,3 +11,7 @@ features, as well as histograms of color, to your HOG feature vector.
 project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and
 follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
+
+##Images
+
+###Image-1
