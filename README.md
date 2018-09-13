@@ -15,3 +15,8 @@ follow detected vehicles.
 ## Images
 
 ### Image-1
+
+<Table border=1>
+<TH><TD></TD><TD></TD></TH>
+<TR><TD></TD><TD></TD></TR>
+</Table>
