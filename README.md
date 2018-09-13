@@ -61,9 +61,9 @@ features (and color features if you used them).
 I trained a linear SVC after cell 6. The LinearSVC() function is used for the linear SVC.
 svc.fit(X_train, y_train) is used for fitting the model. These were the results:
 
-<I>Using spatial binning of: 32 and 32 histogram bins
-Feature vector length: 3168
-62.14 Seconds to train SVC...
+<I>Using spatial binning of: 32 and 32 histogram bins<BR>
+Feature vector length: 3168<BR>
+62.14 Seconds to train SVC...<BR>
 Test Accuracy of SVC = 0.92</I>
 
 For HOG classification:
