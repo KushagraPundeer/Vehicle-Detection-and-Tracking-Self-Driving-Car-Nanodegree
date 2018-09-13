@@ -12,6 +12,6 @@ project_video.mp4) and create a heat map of recurring detections frame by frame 
 follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
-##Images
+## Images
 
-###Image-1
+### Image-1
