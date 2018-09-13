@@ -28,3 +28,18 @@ follow detected vehicles.
 
 ### Image-5
 <img src="images/image-5.jpg" width="850">
+
+## RUBRIC
+REFERENCE: Udacity coursework and Quizzes (Vehicle Detection)
+
+## Histogram of Oriented Gradients (HOG)
+
+1. Explain how (and identify where in your code) you extracted HOG features from the training images.
+
+The code for this step is contained in the third and fourth code cell of the IPython notebook under sckitlearn
+HOG extraction. I started by reading in all the `vehicle` and `non-vehicle` images. Here is an
+example of one of each of the `vehicle` and `non-vehicle` classes:
+
+<img src="images/image-car-noncar.jpg" width="850">
+
+Used get_hog_features() to obtain HOG features.
