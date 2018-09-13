@@ -43,3 +43,41 @@ example of one of each of the `vehicle` and `non-vehicle` classes:
 <img src="images/image-car-noncar.jpg" width="850">
 
 Used get_hog_features() to obtain HOG features.
+
+2. Explain how you settled on your final choice of HOG parameters.
+
+orient = 9
+pix_per_cell = 8
+cell_per_block = 2
+
+These parameters were selected similar to the examples covered in the coursework and finetuned for
+this application.
+I tried various combinations of parameters. RGB gave better accuracy than HSL, HSV and other color
+spaces. Parameters were varied for more accurate predictions.
+
+3. Describe how (and identify where in your code) you trained a classifier using your selected HOG
+features (and color features if you used them).
+
+I trained a linear SVC after cell 6. The LinearSVC() function is used for the linear SVC.
+svc.fit(X_train, y_train) is used for fitting the model. These were the results:
+
+<I>Using spatial binning of: 32 and 32 histogram bins
+Feature vector length: 3168
+62.14 Seconds to train SVC...
+Test Accuracy of SVC = 0.92</I>
+
+For HOG classification:
+
+<I>Using: 9 orientations 8 pixels per cell and 2 cells per block
+Feature vector length: 1764
+0.24 Seconds to train SVC...
+Test Accuracy of SVC = 0.965
+My SVC predicts: [ 0. 1. 0. 0. 1. 1. 0. 1. 0. 0.]
+For these 10 labels: [ 0. 1. 0. 0. 1. 1. 0. 1. 0. 0.]</I>
+
+For Search and classification: (accuracy of 99% is obtained.)
+
+<I>Using: 9 orientations 8 pixels per cell and 2 cells per block
+Feature vector length: 2580
+0.17 Seconds to train SVC...
+Test Accuracy of SVC = 0.99</I>
